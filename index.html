@@ -1,339 +1,1299 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shrada Chellasami</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/slogo.png" type="image/x-icon">
 
-    <title>Resume - Start Bootstrap Theme</title>
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+<body>
+  
+  <!-- 
+    Ref for particles:- https://vincentgarreau.com/particles.js/
+  -->
 
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+  <div id="particles-js"></div>
+    <!-- count particles -->
+  <div class="count-particles">
+  <!--
+    - #MAIN
+  -->
 
-  </head>
+    <main>
 
-  <body id="page-top">
+      <!--
+        - #SIDEBAR
+      -->
+      <aside class="sidebar" data-sidebar>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#project">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <div class="sidebar-info">
 
-    <div class="container-fluid p-0">
+          <figure class="avatar-box">
+            <img src="./assets/images/my-image.png" alt="Shrada Chellasami" width="80">
+          </figure>
 
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Shrada
-            <span class="text-primary">Chellasami</span>
-          </h1>
-          <div class="subheading mb-5">1203 Boyslton Street · Boston, MA 02215 · (781)2043500 ·
-            <a href="mailto: chellasami.s@northeastern.edu">chellasami.s@northeastern.edu</a>
+          <div class="info-content">
+            <h1 class="name" title="Shrada Chellasami">Shrada Chellasami</h1>
+
+            <p class="title">Software Developer</p>
+            <p class="gap"></p>
+            <p class="title">ML Engineer</p>
           </div>
-          <p class="mb-5">Hello! I'm a passionate and highly motivated Computer Science graduate currently pursuing a Master's degree at Northeastern University. My journey in the world of technology has been filled with exciting projects and challenging opportunities that have honed my skills in Python, Machine learning and Web Development. I thrive on solving complex problems and applying cutting-edge technologies to real-world applications. I'm eager to collaborate, learn, and make a positive impact in the field of computer science. Let's connect and explore potential opportunities together!
 
-            I am seeking a New Grad opportunity starting in May 2024. If you consider that my background is a right fit for your organization’s needs, do reach out to me via LinkedIn or chellasami.s@northeastern.edu</p>
-          <ul class="list-inline list-social-icons mb-0">
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:ssawan13@asu.edu" class="contact-link">chellasami.s@northeastern.edu</a>
+              </div>
+
             </li>
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/c-shrada/" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+16234148326" class="contact-link">+1 (781) 204-3500</a>
+              </div>
+
+            </li>
+
+            <!-- <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1998-03-04">May 24, 2000</time>
+              </div>
+
+            </li> -->
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Boston, MA, USA</address>
+              </div>
+
+            </li>
+
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+
+            <li class="social-item">              
+              <a href="./assets/Resume.pdf" class="form-btn" target="_blank">
+              Resume  
               </a>
             </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/shradac" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/c-shrada/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
               </a>
             </li>
 
-            <li class="list-inline-item">
-              <a href="resume.pdf" target="_blank" rel="noopener noreferrer"> 
-                <button class="btn btn-primary resume-button">Resume</button>
-            </a>
+            <li class="social-item">
+              <a href="https://github.com/shradac" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
             </li>
+          </ul>
+        </div>
+      </aside>
+
+
+      <!--
+        - #main-content
+      -->
+
+      <div class="main-content">
+
+        <!--
+          - #NAVBAR
+        -->
+
+        <nav class="navbar">
+
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Research</button>
+            </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+
+          </ul>
+
+        </nav>
+
+
+        <!--
+          - #ABOUT
+        -->
+
+        <article class="about  active" data-page="about">
+
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hello, I'm Shrada Chellasami, a passionate technologist seeking full-time roles in 
+              <a class="about-p-highlight">Software Engineer</a> 
+              or 
+              <a class="about-p-highlight">Machine Learning</a> related opportunities. 
+              Graduated with distinction in Masters of Science in Computer Science, 
+              I thrive on crafting innovative solutions using cutting-edge technologies. 
+              From spearheading advanced Generative AI research to delving into 
+              challenging projects at Juniper Networks, my journey reflects a commitment to pushing the 
+              boundaries of technology and driving impactful innovation.
+            </p>
+          </section>
+
+
+          <!--
+            - service
+          -->
+
+          <section class="service">
+
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Software Development</h4>
+
+                  <p class="service-item-text">
+                    Professionally, I architect and engineer scalable, efficient, and distributed systems 
+                    with cutting-edge technologies.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg
+                  " alt="design icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Science</h4>
+
+                  <p class="service-item-text">
+                    I use data analytics, machine learning modelling, and statistical modeling 
+                    to uncover insights from complex data, guiding data-driven decisions and innovation.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/analytics_col.png" alt="Research icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Research</h4>
+
+                  <p class="service-item-text">
+                    I am passionate about staying updated of the latest technologies and actively engage in researching and learning about them.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">
+                    I capture unique perspectives in photography, embracing minimalism, 
+                    and also explore art illustration and short film creation.
+                  </p>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+
+
+        <!--
+          - #RESUME
+        -->
+
+        <article class="resume" data-page="resume">
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Northeastern University
+                  <span class="right-align">Boston, MA, US</span>
+                </h4>
+                
+                <span class="program">Masters of Science in Computer Science;  GPA: 3.9/4.0 
+                <span class="right-align-gold">August, 2022 - May, 2024</span>
+                </span>
+
+                <p class="timeline-text">
+                  Design Patterns, Database Management, Algorithms, Data Management Processing, Cloud Computing, Web Development, Human Computer Interaction, Mobile Application Development (IOS)
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Dayananda Sagar University
+                  <span class="right-align">Bangalore, KA, India</span>
+                </h4>
+
+                <span class="program">B.Tech in Computer Science and Engineering;  GPA: 8.9/10.0
+                  <span class="right-align-gold">August, 2018 - May, 2022</span>
+                </span>
+
+                <p class="timeline-text">
+                  Data Structures and Algorithms, Object-Oriented Programming, Database and 
+                  Management Systems, Large Scale Data Systems, Machine Learning, Natural Language 
+                  Processing, Operating Systems, Applied Linear Algebra
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Juniper Networks
+                  <span class="right-align">California, CA, US</span>
+                </h4>
+
+                <span class="program">Software Engineer, ML Intern
+                  <span class="right-align-gold">May, 2023 - Aug, 2023</span>
+                </span>
+
+                <ul>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Programmed Python scripts for data mining 200 source datasets and crafted prompts to guide model learning.
+                    </p>
+                  </li>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Constructed 2 data ingestion pipelines on Linux to transform scraped data into usable model training data.
+                    </p>
+                  </li>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Researched training and fine-tuning procedures for various Generative AI LLM models - GPT-3, BERT, RoBERTa and Hugging face models for efficient script generation and reduce delay in release time by 50%.
+                    </p>
+                  </li>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                    Drove agile software development and collaborated with cross-functional teams for requirements analysis.
+                    </p>
+                  </li>
+
+
+                </ul>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">MARG Innovations
+                  <span class="right-align">Sunnyvale, CA, US</span>
+                </h4>
+
+                <span class="program">Software Engineer Intern
+                  <span class="right-align-gold">March, 2022 - June, 2022</span>
+                </span>
+
+                <ul>
+
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                     Created RESTful APIs to seamlessly integrate the frontend with a scalable backend, designed a database architecture in MongoDB for ride data and implemented user authentication through Firebase for enhanced security.
+                    </p>
+                  </li>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Established an end to end CI/CD DevOps pipeline through containerizing key components using Docker. Led the ideation of new features while driving the adoption of automated testing in a carpool startup company.
+                    </p>
+                  </li>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Utilized version control system - Git to manage microservices changes triggering automated workflows for building, testing, and deploying Docker containers increasing the platform performance by 30%
+                    </p>
+                  </li> 
+
+              
+
+                </ul>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Dayananda Sagar University
+                  <span class="right-align">Bangalore, KA, India</span>
+                </h4>
+
+                <span class="program">Research Assistant (Machine Learning)
+                  <span class="right-align-gold">January, 2021 - March, 2022</span>
+                </span>
+
+                <ul>
+
+                  
+                  
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Implemented deep learning regression techniques to quantify skeletal maturity of 5000 patients by identifying
+                      landmarks, applying statistical analysis and machine learning algorithms.
+                    </p>
+                  </li>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Utilized Python,TensorFlow,and Keras for developing and deploying deep learning models - VGG16, VGG19.
+                    </p>
+                  </li>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Published the “Skeletal Bone Age Determination using Deep Learning” in the ICAIHC 2022 detailing the data analysis, training, and improved accuracy of 95%.
+                    </p>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Dayananda Sagar University
+                  <span class="right-align">Bangalore, KA, India</span>
+                </h4>
+
+                <span class="program">Data Science Intern
+                  <span class="right-align-gold">May, 2019 - Jul, 2019</span>
+                </span>
+
+                <ul>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Analyzed remote sensing data from MODIS satellite to compute 33 vegetation and water indexes, enhancing output accuracy by 20%.
+                    </p>
+                  </li>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Formulated and executed vegetation index calculations in R, extracting necessary bands from datasets and
+produced 5 heat map visualizations for analysis after calculating indexes to showcase results.
+                    </p>
+                  </li>
+
+                </ul>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="skill">
+
+            <h3 class="h3 skill-title">My skills</h3>
+
+            <!-- 
+              Languages 
+            -->
+
+            <h5 class="h4 skill-category">Languages</h5>
+
+            <ul class="skill-list">
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/python.png" alt="Python icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Python
+                </div>
+
+              </li>
+
+              
+
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/c.png" alt="C icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                C++
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/java.png" alt="Java icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Java
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/sql.png" alt="SQL icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  SQL
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/js.png" alt="JavaScript icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  JavaScript
+                </div>
+
+              </li>
+
+            </ul>
+
+            <!-- 
+              Frameworks & Libraries 
+            -->
+
+            <h5 class="h4 skill-category">Frameworks & Libraries</h5>
+
+            <ul class="skill-list">
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/aws.svg" alt="AWS icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  AWS Services
+                </div>
+
+              </li>
 
             
-          </ul>
-        </div>
-      </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
+              <li class="skill-item">
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Software Engineering Intern</h3>
-              <div class="subheading mb-3">Juniper Networks</div>
-              <p>Architected and implemented a highly scalable data pipeline to extract and transform 200+ unstructured files
-                using pandas. Programmed Python scripts for data scraping, mining and ML model deployment.</p>
-              <p>Built data ingestion and preprocessing pipelines on Linux utilizing bash. Evaluated large language models
-                (LLM) for automated script generation with improved efficiency over 20%.</p>
-              <p>Drove agile software development and collaborated with cross functional teams for requirements analysis of
-                NLP applications. Performed testing and supported the development of features for the product.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">May 2023 - August 2023</span>
-            </div>
-          </div>
+                <div class="skill-icon-box">
+                  <img src="./assets/images/pytorch.png" alt="PyTorch icon" width="40">
+                </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Research Assistant</h3>
-              <div class="subheading mb-3">Dayananda Sagar University</div>
-              <p>Trained and fine-tuned a Convolutional Neural Network model utilizing TensorFlow and Keras to predict
-                pediatric bone age, lowering manual prediction errors by 24%.</p>
-              <p>Published the “Skeletal Bone Age Determination using Deep Learning” in the ICAIHC 2022 detailing the data
-                analysis, developed model, enhanced productivity and improved accuracy.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2021 - March 2022</span>
-            </div>
-          </div>
+                <div class="skill-content-box">
+                  PyTorch
+                </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Data Science Intern</h3>
-              <div class="subheading mb-3">Dayananda Sagar University</div>
-              <p> Analyzed remote sensing data from MODIS satellite to compute 33 vegetation and water indexes, enhancing
-                output accuracy by 20%.</p>
-              <p>Formulated and executed vegetation index calculations in R, extracting necessary bands from datasets and produced 5 heat map visualizations for analysis after calculating indexes to showcase results.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary"> May 2019 - July 2019</span>
-            </div>
-          </div>
+              </li>
 
-        </div>
+              <li class="skill-item">
 
-      </section>
+                <div class="skill-icon-box">
+                  <img src="./assets/images/tensorflow.png" alt="TensorFlow icon" width="40">
+                </div>
 
+                <div class="skill-content-box">
+                  TensorFlow
+                </div>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
+              </li>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Northeastern University</h3>
-              <div class="subheading mb-3">Master of Science in Computer Science</div>
-              <p>GPA: 3.9</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2022 - May 2024</span>
-            </div>
-          </div>
+              <li class="skill-item">
 
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Dayananda Sagar University</h3>
-              <div class="subheading mb-3">Bachelor of Technology in Computer Science</div>
-              <p>GPA: 3.6</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2018 - May 2022</span>
-            </div>
-          </div>
+                <div class="skill-icon-box">
+                  <img src="./assets/images/huggingface.png" alt="Hugging Face icon" width="40">
+                </div>
 
-        </div>
-      </section>
+                <div class="skill-content-box">
+                  Hugging Face
+                </div>
 
+              </li>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="project">
-        <div class="my-auto">
-          <h2 class="mb-5">Projects</h2>
+              <li class="skill-item">
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">DocTalk</h3>
-              <h5 class="mb-3">Swift, XCode, Objective-C, Objective-oriented programming, Firebase, UIKit, REST APIs</h4>
+                <div class="skill-icon-box">
+                  <img src="./assets/images/numpy.png" alt="NumPy icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  NumPy
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/pandas.png" alt="Pandas icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Pandas
+                </div>
+
+              </li>
+
               
-              <p>Developed an iOS app in Swift for patients to connect with over 100 verified medical experts for medical advise.</h5>
-              <p>Engineered dynamic view controller application using MVC architecture, iOS protocols, extensions and inheritance. Implemented 10 core functionalities using Xcode, UIKit, Firestore, and REST APIs.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2024 - May 2024</span>
-            </div>
-          </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">EduHub - Canvas Clone</h3>
-              <h5 class="mb-3">Reactjs, Nodejs, Bootstrap, JavaScript, HTML, CSS, AWS</h5>
+            </ul>
+
+            <!-- 
+              Tools & OS 
+            -->
+
+            <h5 class="h4 skill-category">Tools & OS</h5>
+
+            <ul class="skill-list">
+
               
-              <p>Developed 25+ front-end components for core functionalities with ReactJS framework to deliver seamless user
-                experience. Deployed and hosted application front-end on Amazon EC2 instances.</p>
-              <p>Architected scalable back-end using Node.js and RESTful APIs integrating with NoSQL databases on
-                Amazon DynamoDB, supporting over 1000 documents. Optimized data models and queries for performance.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2023 - December 2023</span>
-            </div>
-          </div>
 
+              <li class="skill-item">
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">RateMyCoop</h3>
-              <h5 class="mb-3">UI, UX, WireFrames, Axure</h5>
+                <div class="skill-icon-box">
+                  <img src="./assets/images/docker.png" alt="Docker icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Docker
+                </div>
+
+              </li>
+
               
-             <p>Designed and prototyped a mobile application enabling students to rate and review co-op experiences. Followed
-              user-centered design principles conducting usability testing with 10+ users to identify and fix pain points.
-              </p>
-
-              <p>Prototyped an intuitive and visually appealing UI for the app implementing design principles like consistency,
-                feedback, and clear visual hierarchies. Used Axure to create high-fidelity prototype with above 20 wireframes.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2023 - December 2023</span>
-            </div>
-          </div>
 
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Optimized Data Retrieval for an E-commerce Website </h3>
-              <h5 class="mb-3">C++, Object Oriented Programming, Algorithms</h5>
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/mysql.png" alt="MySQL icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  MySQL
+                </div>
+
+              </li>
+
               
-             <p>Built a highly reusable C++ server architecture using Object Oriented principles. Designed cache, storage,
-              routing and monitoring classes with clean interfaces. Increased testability and maintainability of business logic.</p>
-              <p>Created multi-threaded data servers and an asynchronous networking framework in C++ to handle high volumes of concurrent requests without degradation in performance. Benchmarked throughput improvements of 60%.</p>
-              <p>Followed robust software engineering practices including test-driven development, modular design, use of smart pointers for automatic memory management to avoid leaks.</p>
+              <li class="skill-item">
 
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2023 - April 2023</span>
-            </div>
-          </div>
+                <div class="skill-icon-box">
+                  <img src="./assets/images/html.png" alt="HTML icon" width="40">
+                </div>
 
+                <div class="skill-content-box">
+                  HTML
+                </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Stock Market Simulator </h3>
-              <h5 class="mb-3">Java, JSwing, Design Patterns</h5>
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/css-3.png" alt="CSS icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  CSS
+                </div>
+
+              </li>
+
               
-             <p>Designed an MVC based Java Application to let 100+ users understand how to invest in Stock Markets.</p>
-             <p>Integrated AlphaVantage API for data, application included buying stocks individually, through a periodical investment, or apply Dollar Cost Averaging Strategy to a portfolio, selling stocks, evaluating portfolio at any time.
-              <p>Adopted SOLID principles, Object-Oriented Design, improved flexibility by using more than 5 design patterns.</p>
-             </p>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/linux.png" alt="Linux icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Linux
+                </div>
+
+              </li>
+
+            </ul>
+
+          </section>
+
+          <!-- 
+            Certifications 
+          -->
+
+          <!-- <section class="certification">
+            
+            <h3 class="h3 certification-title">Certifications</h3>
+
+              <ul class="certification-list">
+
+                <li class="certification-item">
+                  <a href="https://www.credential.net/d80c2a37-3433-486d-a871-bc35175e88ef#gs.5y8nn5" target="_blank">
+                    <div class="certification-icon-box">
+                      <img src="./assets/images/tensorflow.png" alt="TF icon" width="70">
+                    </div>
+
+                    <div class="certification-content-box">
+                      TensorFlow Developer Certificate
+                    </div>
+                  </a>
+                </li>
+
+                <li class="certification-item">
+                  <a href="https://coursera.org/share/6666b1ed00d2beab8f249b6e1c288f22" target="_blank">
+                    <div class="certification-icon-box">
+                      <img src="./assets/images/deeplearning.png" alt="Deep Learning icon" width="70">
+                    </div>
+
+                    <div class="certification-content-box">
+                      Deep Learning Specialization
+                    </div>
+                  </a>
+                </li>
+
+                <li class="certification-item">
+                  <a href="https://coursera.org/share/008300fb2d29fa4d30011b32b4881192" target="_blank">
+                    <div class="certification-icon-box">
+                      <img src="./assets/images/umich.png" alt="University of Michigan icon" width="70">
+                    </div>
+
+                    <div class="certification-content-box">
+                      Applied Machine Learning
+                    </div>
+                  </a>
+                </li> -->
+
+                <!-- <li class="certification-item">
+                  <a href="https://certificate.algoexpert.io/AE-c3da7de934" target="_blank">
+                    <div class="certification-icon-box">
+                      <img src="./assets/images/algoexpert.png" alt="Algoexpert icon" width="70">
+                    </div>
+
+                    <div class="certification-content-box">
+                      Algoexpert
+                    </div>
+                  </a>
+                </li> -->
+
+              </ul>
+
+          </section>
+
+        </article>
+
+
+        <!--
+          - #PORTFOLIO
+        -->
+
+        <article class="projects" data-page="projects">
+
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="project-posts">
+
+            <ul class="project-posts-list">
+
+              <li class="project-post-item">
+                <a href="https://github.com/shradac/Stock-Market-Simulator" target="_blank">
+
+                  <figure class="project-banner-box">
+                    <img src="assets/images/stock_project.png" alt="Stock Market Simulator" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+                      <p class="project-category">MVC</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">Design Patters</p>
+                      
+                      <span class="dot"></span>
+
+                      <p class="project-category">Object Oriented Design</p>
+                      
+                    </div>
+
+                    <h3 class="h4 project-item-title">Stock Market Simulator</h3>
+                      <p class="project-text">
+                        Designed and implemented a scalable stock market simulator application with Java and JSwing.
+                      </p>
+                    
+                      <p class="project-text">
+                        Integrated 3rd party API and used 5 design patterns, SOLID principles, and object-oriented design (OOD) and MVC architecture for flexibility and reusability. 
+                    
+                      <p class="project-text">
+                        Conducted over 500-unit tests with Junit and performed end-to-end testing.
+                      </p>
+                      </p>
+
+                      <div class="project-tech">
+                        <span class="tech">Java</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">JUnit</span>
+                      </div>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="project-post-item">
+                <a href="https://github.com/shradac/kanbas-node-server-app" target="_blank">
+
+                  <figure class="project-banner-box">
+                    <img src="./assets/images/web_dev.png" alt="EduHub" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+                      <p class="project-category">Web Development</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">Backend Dev</p>
+                      
+                      <span class="dot"></span>
+
+                      <p class="project-category">Frontend Dev</p>
+                      
+                    </div>
+
+                    <h3 class="h4 project-item-title">EduHub</h3>
+                      <p class="project-text">
+                        Engineered a user-centric full-stack web app, creating over 25 ReactJS components hosted on Amazon EC2 for
+streamlined access to course materials and assignment submissions
+                      </p>
+                    
+                      <p class="project-text">
+                        Architected scalable back end Node.js and RESTful APIs integrating with NoSQL databases on Amazon
+DynamoDB supporting over 1000 documents. Optimized data models and queries for performance
+                      </p>
+                    
+
+                      <div class="project-tech">
+                        <span class="tech">ReactJS</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Node.js</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Redux</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">HTML</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">CSS</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">JavaScript</span>
+                      </div>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="project-post-item">
+                <a href="https://github.com/shradac/FoodiePalace" target="_blank">
+
+                  <figure class="project-banner-box">
+                    <img src="./assets/images/foodie_palace.png" alt="Foodie Palace" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+                      <p class="project-category">SQL</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">RDBMS</p>
+                      
+                      <span class="dot"></span>
+
+                      <p class="project-category">Database</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">SaaS</p>
+                      
+                    </div>
+
+                    <h3 class="h4 project-item-title">Foodie Palace</h3>
+                      <p class="project-text">
+                     
+                      Developed an intuitive SaaS interface and CRM for a restaurant using Python, Flask, MySQL to increase staff
+productivity and customer experience for real-time orders.
+                      </p>
+                    
+                      <p class="project-text">
+                        Designed a 15-table database schema, enhancing CRUD operations and reducing query response time by 25%.
+                      </p>
+
+                      <div class="project-tech">
+                        <span class="tech">Python</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">SQL</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Flask</span>
+                      </div>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="project-post-item">
+                <a href="https://github.com/shradac/DocTalk" target="_blank">
+
+                  <figure class="project-banner-box">
+                    <img src="./assets/images/medihub.png" alt="DocTalk" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+                      <p class="project-category">Mobile App Development</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">IOS</p>
+
+                    </div>
+
+                    <h3 class="h4 project-item-title">DocTalk</h3>
+                      <p class="project-text">
+                        
+                      </p>
+                    
+                      <p class="project-text">
+                        Developed an iOS app in Swift for patients to connect with medical experts for medical advice and treatments.
+                                              </p>
+                    
+                      <p class="project-text">
+                        Engineered dynamic view controller application using MVC architecture, iOS protocols, extensions, and
+                        inheritance. Implemented 10 core functionalities using Xcode, UIKit, Firestore, and REST APIs.
+                      </p>
+
+                      <div class="project-tech">
+                        <span class="tech">Swift</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Objective C</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">UIKit</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Xcode</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Cocoa Pods</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Firebase</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Postman</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">REST API</span>
+                      </div>
+
+                  </div>
+
+                </a>
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+
+
+        <!--
+          - #RESEARCH
+        -->
+<!-- 
+        <article class="research" data-page="research">
+          <header>
+            <h2 class="h2 article-title">Research</h2>
+          </header>
+
+          <section class="research-posts"> -->
+<!-- 
+            <ul class="research-posts-list">
+
+              <li class="research-post-item">
+                <a href="https://arxiv.org/abs/2210.07471" target="_blank">
+                  <figure class="research-banner-box">
+                    <img src="./assets/images/commonsense_reasoning.png" alt="Commonsense reasoning" loading="lazy">
+                  </figure>
+                  <div class="research-content">
+                    <div class="research-meta">
+                      <p class="research-category">EACL 2023</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-02-03">Feb 03, 2023</time>
+                    </div>
+                    <h5 class="h5 research-item-title">"John is 50 years old, can his son be 65?" Evaluating NLP Models' Understanding of Feasibility</h5>
+                    <p class="research-text">
+                      Demonstrated the limitations of large language models (LLM) like GPT3 
+                      and T5 by creating numerical feasibility data set. Created data set 
+                      and experimentation to show that the GPT3 has accuracy of just 19%. 
+                      Also, demonstrated the knowledge ingestion inability of such models. 
+                      Paper is published at EACL 2023.
+                    </p>
+                  </div>
+                </a>
+              </li> -->
+
+              <!-- <li class="research-post-item">
+                <a href="https://arxiv.org/abs/2306.05539" target="_blank">
+                  <figure class="research-banner-box">
+                    <img src="./assets/images/instruction_learning.png" alt="Instruction Learning" loading="lazy">
+                  </figure>
+                  <div class="research-content">
+                    <div class="research-meta">
+                      <p class="research-category">Instruction Learning</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-05-17">May 17, 2023</time>
+                    </div>
+                    <h5 class="h5 research-item-title">Instruction Tuned Models are Quick Learners</h5>
+                    <p class="research-text">
+                      This research highlights instruction tuning in language models, showcasing 
+                      their impressive sample efficiency. In single task learning, they excel 
+                      with only 25% of the data, while in multi-task learning, they achieve 
+                      state-of-the-art results with just 6% of the data. This approach improves 
+                      sample efficiency, and pre-finetuning with instructions consistently 
+                      enhances performance by around 4%. However, challenges arise in tasks 
+                      like question rewriting and title generation with instruction tuning.
+                    </p>
+                  </div>
+                </a>
+              </li> -->
+
+              <!-- <li class="research-post-item">
+                <a href="https://www.atipriya.com/files/papers/varbert_oakland24.pdf" target="_blank">
+                  <figure class="research-banner-box"> -->
+                    <!-- Ref: https://arxiv.org/pdf/2103.12801.pdf -->
+                    <!-- <img src="./assets/images/variable_recovery.jpg" alt="variable_recovery" loading="lazy">
+                  </figure>
+                  <div class="research-content">
+                    <div class="research-meta">
+                      <p class="research-category">IEEE S&P 2024 (Oakland)</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-05-10">May 10, 2023</time>
+                    </div>
+                    <h5 class="h5 research-item-title">"Len or index or count, anything but v1": Predicting
+                      Variable Names in Decompilation Output with Transfer
+                      Learning</h5>
+                    <p class="research-text">
+                      Created a Masked Language Model (MLM, BERT) for recovery of variable from decompiled source code. 
+                      Comparing pre-training performance of original code and decompiled code and effect of selective 
+                      variable masking using a Constrained Masked Language Model (CMLM) for performance improvements.
+                    </p>
+                  </div>
+                </a>
+              </li> -->
+
+              <!-- <li class="research-post-item">
+                <a href="https://arxiv.org/abs/2302.08624" target="_blank">
+                  <figure class="research-banner-box">
+                    <img src="./assets/images/instructabsa.png" alt="InstructABSA" loading="lazy">
+                  </figure>
+                  <div class="research-content">
+                    <div class="research-meta">
+                      <p class="research-category">Under review (NAACL)</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-11-13">Nov 13, 2023</time>
+                    </div>
+                    <h5 class="h5 research-item-title">InstructABSA: Instruction Learning for Aspect Based Sentiment Analysis</h5>
+                    <p class="research-text">
+                      InstructABSA improves Aspect-Based Sentiment Analysis (ABSA) by including diverse examples during 
+                      training, surpassing previous state-of-the-art (SOTA) methods in Term Extraction, Sentiment 
+                      Classification, and Sentiment Pair Extraction on Sem Eval datasets, maintaining a strong 
+                      generalization with just 50% of the training data.
+                    </p>
+                  </div>
+                </a>
+              </li> -->
+
+              <!-- <li class="research-post-item">
+                <a href="https://arxiv.org/abs/2310.17876" target="_blank">
+                  <figure class="research-banner-box">
+                    <img src="./assets/images/targen.png" alt="TarGEN" loading="lazy">
+                  </figure>
+                  <div class="research-content">
+                    <div class="research-meta">
+                      <p class="research-category">Under review (NAACL)</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-10-30">Oct 30, 2023</time>
+                    </div>
+                    <h5 class="h5 research-item-title">TarGEN: Targeted Data Generation with Large Language Models</h5>
+                    <p class="research-text">
+                      TarGEN, a seedless strategy, generates high-quality synthetic datasets using LLMs, outperforming 
+                      originals by 1-2% in SuperGLUE tasks. With instruction tuning, it achieves 84.54% on synthetic data 
+                      versus 81.49% on originals, maintaining diversity. T5-3B pre-finetuned on TarGEN 
+                      tops the OpenLLM leaderboard by 4.14%, providing an efficient benchmark solution.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </section>
+        </article> -->
+        
+        <!--
+          - #CONTACT
+        -->
+
+        <article class="contact" data-page="contact">
+
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188820.14154164938!2d-71.13509223232637!3d42.314485849146585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C%20MA!5e0!3m2!1sen!2sus!4v1710312218621!5m2!1sen!2sus" 
+                width="400" height="300" 
+                style="border:0;" allowfullscreen="" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+
+            <h3 class="h3 form-title">Contact</h3>
+
+            <div style="align-items: center;">
+              <p style="color: white;">I’m actively exploring new opportunities and my inbox is ready and waiting. Whether you're seeking insights, have a query, or simply want to drop a 'hello', I'm here and eager to connect! Expect a swift response—I'm committed to getting back to you as promptly as possible!</p>
+              <a class="email-link" style="color: hsl(45, 100%, 71%);" href="mailto:chellasami.s@northeastern.edu" rel="noopener noreferrer" target="_blank">
+                <button class="form-btn" type="submit">
+                  <ion-icon name="paper-plane"></ion-icon>
+                  <span>Send Message</span>
+                </button>
+              </a>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2022 - December 2022</span>
-            </div>
-          </div>
 
+            <!-- <form 
+              action="https://docs.google.com/forms/d/e/1FAIpQLSeFbZCghXLqqVEtawpsh4CaiyhFer93LoKePsMSuY09WXQTLw/formResponse" 
+              class="form" target="_blank"
+              data-form>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Restaurant Management System</h3>
-              <h5 class="mb-3">MySQL, Python, Flask, HTML, JavaScript, CSS</h5>
-              
-              
-             <p>Developed a custom restaurant management tool using Python, Flask and SQL for a small restaurant chain.
-            </p>
-            <p>Created a user-friendly interface for employees to input and access real-time data in the tool and resolved issues through debugging and programming. Used MySQL to design and implement a database to store and manage 15+ features such as admin, chef, menu, recipe and inventory information.</p>
-            <p>
-              Scheduled 10 events such as to increase price of dishes, employee salaries and other operations. Triggers used to update orders and payments based on table status.
-            </p></div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2022 - December 2022</span>
-            </div>
-          </div>
+              <div class="input-wrapper">
+                <input type="text" name="entry.1325375650" class="form-input" placeholder="Full name" required data-form-input>
 
+                <input type="email" name="entry.45159176" class="form-input" placeholder="Email address" required data-form-input>
+              </div>
 
-         
+              <textarea name="entry.2104378170" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
 
+            </form> -->
 
-
+          </section>
+        
+          
+          <!-- <a href="mailto:chellasami.s@northeastern.edu" class="email-link" style="color: hsl(45, 100%, 71%);">chellasami.s@northeastern.edu</a> -->
           
 
-        </div>
-      </section>
+              
 
-      
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
+        </article>
 
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          
-          <ul class="skills-list pl-3">
-            <li>Python</li>
-            <li>Java</li>
-            <li>C++</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
-            <li>MongoDB</li>
-            <li>React</li>
-            <li>Swift</li>
-            <li>NodeJS</li>
-            <li>AWS</li>
-          </ul>
+      </div>
 
-          
-        </div>
-      </section>
+    </main>
 
+  </div>
 
-         
+  <!-- scripts -->
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/app.js"></script>
 
-    </div>
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
-
-  </body>
-
+</body>
 </html>
+
